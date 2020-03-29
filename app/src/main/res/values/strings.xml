@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">TicTac</string>
+    <string name="btnStart">Start</string>
+    <string name="about">About</string>
+    <string name="statistic">Statistic</string>
+    <string name="settings">Settings</string>
+    <string name="btnExit">Exit</string>
+
+    <string name="firstMove">First player\'s move</string>
+    <string name="secondMove">Second player\'s move</string>
+    <string name="botMove">Android\'s move</string>
+    <string name="moves"> moves</string>
+
+    <string name="congratFirst">First player won this round!</string>
+    <string name="congratSecond">Second player won this round!</string>
+    <string name="congratBot">Android won this round, but not a war! Don\'t give up!</string>
+    <string name="nooneWon">We have a tie!</string>
+
+    <string name="volume">Volume</string>
+    <string name="sound">Sound</string>
+    <string name="uWon">You won!</string>
+    <string name="uLost">You lost</string>
+</resources>

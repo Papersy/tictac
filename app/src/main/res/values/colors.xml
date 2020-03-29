@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorMainMenu">#16B7E0</color>
+    <color name="boxColor">#0EDCFF</color>
+    <color name="menuBtn">#1BAF9F</color>
+    <color name="btnInit">#BF7ED187</color>
+</resources>
