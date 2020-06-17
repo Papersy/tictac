@@ -10,10 +10,53 @@
         android:layout_height="match_parent"
         android:background="@color/colorMainMenu">
 
+<!--        <ImageView-->
+<!--            android:id="@+id/signIn"-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="100dp"-->
+<!--            android:layout_marginStart="124dp"-->
+<!--            android:layout_marginLeft="124dp"-->
+<!--            android:layout_marginEnd="15dp"-->
+<!--            android:layout_marginRight="15dp"-->
+<!--            android:layout_marginBottom="30dp"-->
+<!--            android:background="@drawable/menu_btn"-->
+<!--            android:padding="10dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toStartOf="@+id/achievements"-->
+<!--            app:layout_constraintHorizontal_bias="1.0"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:srcCompat="@drawable/ic_google_play" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/leaderBoard"-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="100dp"-->
+<!--            android:layout_marginEnd="65dp"-->
+<!--            android:layout_marginRight="65dp"-->
+<!--            android:layout_marginBottom="30dp"-->
+<!--            android:background="@drawable/menu_btn"-->
+<!--            android:padding="8dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:srcCompat="@drawable/ic_cup" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/achievements"-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="100dp"-->
+<!--            android:layout_marginEnd="15dp"-->
+<!--            android:layout_marginRight="15dp"-->
+<!--            android:layout_marginBottom="30dp"-->
+<!--            android:background="@drawable/menu_btn"-->
+<!--            android:padding="8dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toStartOf="@+id/leaderBoard"-->
+<!--            app:srcCompat="@drawable/ic_medal" />-->
+
         <Button
             android:id="@+id/btnStart"
             android:layout_width="match_parent"
-            android:layout_height="70dp"
+            android:layout_height="80dp"
             android:layout_marginStart="65dp"
             android:layout_marginLeft="65dp"
             android:layout_marginTop="150dp"
@@ -23,7 +66,7 @@
             android:fontFamily="sans-serif-light"
             android:text="@string/btnStart"
             android:textColor="@android:color/white"
-            android:textSize="35sp"
+            android:textSize="40sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -31,17 +74,17 @@
         <Button
             android:id="@+id/btnAbout"
             android:layout_width="0dp"
-            android:layout_height="70dp"
+            android:layout_height="80dp"
             android:layout_marginStart="65dp"
             android:layout_marginLeft="65dp"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="40dp"
             android:layout_marginEnd="65dp"
             android:layout_marginRight="65dp"
             android:background="@drawable/menu_btn"
             android:fontFamily="sans-serif-light"
             android:text="@string/about"
             android:textColor="@android:color/white"
-            android:textSize="35sp"
+            android:textSize="40sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btnStart" />
@@ -49,17 +92,17 @@
         <Button
             android:id="@+id/btnStatistic"
             android:layout_width="0dp"
-            android:layout_height="70dp"
+            android:layout_height="80dp"
             android:layout_marginStart="65dp"
             android:layout_marginLeft="65dp"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="40dp"
             android:layout_marginEnd="65dp"
             android:layout_marginRight="65dp"
             android:background="@drawable/menu_btn"
             android:fontFamily="sans-serif-light"
             android:text="@string/statistic"
             android:textColor="@android:color/white"
-            android:textSize="35sp"
+            android:textSize="40sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btnAbout" />
@@ -67,17 +110,17 @@
         <Button
             android:id="@+id/btnSettings"
             android:layout_width="0dp"
-            android:layout_height="70dp"
+            android:layout_height="80dp"
             android:layout_marginStart="65dp"
             android:layout_marginLeft="65dp"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="40dp"
             android:layout_marginEnd="65dp"
             android:layout_marginRight="65dp"
             android:background="@drawable/menu_btn"
             android:fontFamily="sans-serif-light"
             android:text="@string/settings"
             android:textColor="@android:color/white"
-            android:textSize="35sp"
+            android:textSize="40sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btnStatistic" />
@@ -85,17 +128,17 @@
         <Button
             android:id="@+id/btnExit"
             android:layout_width="0dp"
-            android:layout_height="70dp"
+            android:layout_height="80dp"
             android:layout_marginStart="65dp"
             android:layout_marginLeft="65dp"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="40dp"
             android:layout_marginEnd="65dp"
             android:layout_marginRight="65dp"
             android:background="@drawable/menu_btn"
             android:fontFamily="sans-serif-light"
             android:text="@string/btnExit"
             android:textColor="@android:color/white"
-            android:textSize="35sp"
+            android:textSize="40sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"

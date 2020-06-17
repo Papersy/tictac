@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.tictac">
+    package="com.game.tictac">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
@@ -22,12 +22,12 @@
         android:resizeableActivity="false"
         android:screenOrientation="portrait"
         android:theme="@style/AppTheme">
-        <activity android:name=".settingsActivity.SettingsActivity"/>
-        <activity android:name=".aboutActivity.AboutActivity" />
-        <activity android:name=".statisticActivity.statisticActivity" />
-        <activity android:name=".gametypeactivity.GameTypeActivity" />
-        <activity android:name=".startactivity.StartActivity" />
-        <activity android:name=".mainactivity.MainActivity">
+        <activity android:name="com.game.tictac.settingsActivity.SettingsActivity"/>
+        <activity android:name="com.game.tictac.aboutActivity.AboutActivity" />
+        <activity android:name="com.game.tictac.statisticActivity.statisticActivity" />
+        <activity android:name="com.game.tictac.gametypeactivity.GameTypeActivity" />
+        <activity android:name="com.game.tictac.startactivity.StartActivity" />
+        <activity android:name="com.game.tictac.mainactivity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -38,6 +38,10 @@
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-3010679320408675~3103313863" />
+        <meta-data android:name="com.google.android.gms.games.APP_ID"
+            android:value="@string/app_id" />
+        <meta-data android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
     </application>
 
 </manifest>

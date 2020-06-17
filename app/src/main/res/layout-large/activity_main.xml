@@ -7,12 +7,55 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/colorMainMenu">
+        android:background="@color/background">
+
+<!--        <ImageView-->
+<!--            android:id="@+id/signIn"-->
+<!--            android:layout_width="75dp"-->
+<!--            android:layout_height="75dp"-->
+<!--            android:layout_marginStart="124dp"-->
+<!--            android:layout_marginLeft="124dp"-->
+<!--            android:layout_marginEnd="10dp"-->
+<!--            android:layout_marginRight="10dp"-->
+<!--            android:layout_marginBottom="30dp"-->
+<!--            android:background="@drawable/menu_btn"-->
+<!--            android:padding="10dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toStartOf="@+id/achievements"-->
+<!--            app:layout_constraintHorizontal_bias="1.0"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:srcCompat="@drawable/ic_google_play" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/leaderBoard"-->
+<!--            android:layout_width="75dp"-->
+<!--            android:layout_height="75dp"-->
+<!--            android:layout_marginEnd="60dp"-->
+<!--            android:layout_marginRight="60dp"-->
+<!--            android:layout_marginBottom="30dp"-->
+<!--            android:background="@drawable/menu_btn"-->
+<!--            android:padding="8dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:srcCompat="@drawable/ic_cup" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/achievements"-->
+<!--            android:layout_width="75dp"-->
+<!--            android:layout_height="75dp"-->
+<!--            android:layout_marginEnd="10dp"-->
+<!--            android:layout_marginRight="10dp"-->
+<!--            android:layout_marginBottom="30dp"-->
+<!--            android:background="@drawable/menu_btn"-->
+<!--            android:padding="8dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toStartOf="@+id/leaderBoard"-->
+<!--            app:srcCompat="@drawable/ic_medal" />-->
 
         <Button
             android:id="@+id/btnStart"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="65dp"
             android:layout_marginStart="60dp"
             android:layout_marginLeft="60dp"
             android:layout_marginTop="150dp"
@@ -30,7 +73,7 @@
         <Button
             android:id="@+id/btnAbout"
             android:layout_width="0dp"
-            android:layout_height="50dp"
+            android:layout_height="65dp"
             android:layout_marginStart="60dp"
             android:layout_marginLeft="60dp"
             android:layout_marginTop="30dp"
@@ -48,7 +91,7 @@
         <Button
             android:id="@+id/btnStatistic"
             android:layout_width="0dp"
-            android:layout_height="50dp"
+            android:layout_height="65dp"
             android:layout_marginStart="60dp"
             android:layout_marginLeft="60dp"
             android:layout_marginTop="30dp"
@@ -66,7 +109,7 @@
         <Button
             android:id="@+id/btnSettings"
             android:layout_width="0dp"
-            android:layout_height="50dp"
+            android:layout_height="65dp"
             android:layout_marginStart="60dp"
             android:layout_marginLeft="60dp"
             android:layout_marginTop="30dp"
@@ -84,7 +127,7 @@
         <Button
             android:id="@+id/btnExit"
             android:layout_width="0dp"
-            android:layout_height="50dp"
+            android:layout_height="65dp"
             android:layout_marginStart="60dp"
             android:layout_marginLeft="60dp"
             android:layout_marginTop="30dp"

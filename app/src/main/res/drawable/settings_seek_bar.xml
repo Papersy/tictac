@@ -10,8 +10,8 @@
             <gradient
                 android:angle="270"
                 android:startColor="#22000000"
-                android:centerColor="@color/menuBtn"
-                android:endColor="@color/menuBtn"
+                android:centerColor="@color/tieStroke"
+                android:endColor="@color/tieStroke"
                 android:centerY="0.15"
                 android:type="linear"
                 />

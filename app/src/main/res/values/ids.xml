@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Google Play game services IDs.
+Save this file as res/values/games-ids.xml in your project.
+-->
+<resources>
+    <!-- app_id -->
+    <string name="app_id" translatable="false">168681558671</string>
+    <!-- package_name -->
+    <string name="package_name" translatable="false">com.game.tictac</string>
+    <!-- achievement Win 10 bots -->
+    <string name="achievement_win_10_bots" translatable="false">CgkIj6XRsfQEEAIQBw</string>
+    <!-- achievement Win 50 bots -->
+    <string name="achievement_win_50_bots" translatable="false">CgkIj6XRsfQEEAIQCA</string>
+    <!-- achievement Win 100 bots -->
+    <string name="achievement_win_100_bots" translatable="false">CgkIj6XRsfQEEAIQCQ</string>
+    <!-- achievement Win 250 bots -->
+    <string name="achievement_win_250_bots" translatable="false">CgkIj6XRsfQEEAIQCg</string>
+    <!-- achievement Win 500 bots -->
+    <string name="achievement_win_500_bots" translatable="false">CgkIj6XRsfQEEAIQCw</string>
+    <!-- leaderboard Top -->
+    <string name="leaderboard_top" translatable="false">CgkIj6XRsfQEEAIQAQ</string>
+
+    <string name="client_id" translatable="false">168681558671-g4fhimh0l1vktl0pkq7el7a0k8nv42jp.apps.googleusercontent.com</string>
+</resources>

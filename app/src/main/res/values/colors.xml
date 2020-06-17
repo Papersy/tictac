@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorMainMenu">#16B7E0</color>
+<!--    <color name="colorMainMenu">#8CCAFB</color>--><color name="colorMainMenu">#B75454</color>
     <color name="boxColor">#0EDCFF</color>
     <color name="menuBtn">#1BAF9F</color>
     <color name="btnInit">#BF7ED187</color>
+
+<!--    <color name="tieColor">#70BAF3</color>--><color name="tieColor">#833033</color>
+<!--    <color name="tieStroke">#488BBF</color>--><color name="tieStroke">#FFA4A7</color>
+<!--    <color name="fillImage">#155280</color>--><color name="fillImage">#fff</color>
+
+<!--    <color name="background">#8CCAFB</color>--><color name="background">#B75454</color>
+    <color name="button">#3BCABB</color>
+    <color name="stroke">#1D9588</color>
+
+
+
+
+
+    <!--<color name="fillImage">#167066</color>-->
 </resources>

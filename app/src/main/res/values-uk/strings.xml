@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="btnStart">Старт</string>
+    <string name="about">Про нас</string>
+    <string name="statistic">Статистика</string>
+    <string name="settings">Налаштування</string>
+    <string name="btnExit">Вийти</string>
+
+    <string name="playerMove">Хід гравця</string>
+    <string name="firstMove">Ходить перший гравець</string>
+    <string name="secondMove">Ходить другий гравець</string>
+    <string name="botMove">Хід бота</string>
+    <string name="moves"> ходить</string>
+
+    <string name="congratPlayer">Гравець виграв!</string>
+    <string name="congratFirst">Перший гравець виграв!</string>
+    <string name="congratSecond">Другий гравець виграв!</string>
+    <string name="congratBot">Бот виграв матч, але не війну! Не сумуй!</string>
+    <string name="nooneWon">Нічия!</string>
+
+
+    <string name="offlineStats">Оффлайн статистика</string>
+    <string name="botsStats">Статистика ботів</string>
+    <string name="otherStats">Інша статистика</string>
+    <string name="firstPlayerVictories">Перший гравець отримав перемог:</string>
+    <string name="secondPlayerVictories">Другий гравець отримав перемог:</string>
+    <string name="easyEliminated">Простих ботів повержено:</string>
+    <string name="mediumEliminated">Середніх ботів повержено:</string>
+    <string name="hardEliminated">Складних ботів повержено:</string>
+    <string name="tieCount">Нічиїх:</string>
+    <string name="botGames">Ігр з ботами:</string>
+
+    <string name="volume">Музика</string>
+    <string name="sound">Звуки</string>
+    <string name="nickName">Нікнейм</string>
+    <string name="uWon">Ви виграли!</string>
+    <string name="uLost">Ви програли</string>
+    <string name="remember">Запом\'ятати</string>
+    <string name="buffer">Buffer</string>
+
+    <string name="bot">Бот</string>
+    <string name="offline">Оффлайн</string>
+    <string name="online">Онлайн</string>
+
+    <string name="size3">3x3</string>
+    <string name="size5">5x5</string>
+    <string name="size7">7x7</string>
+
+    <string name="easy">Простий</string>
+    <string name="medium">Середній</string>
+    <string name="hard">Складний</string>
+
+    <string name="description">Мі цінуємо те, що Ви скачали нашу гру. Ми сподіваємось, що вона Вам сподобається і Ви оцінете її в Play Market store. Іконки були взяті із flaticon.com, звуки із freesound.org</string>
+    <string name="press">Натисніть ще раз для виходу</string>
+
+
+    <string name="noInet">Немає інтернет зв\'язку!</string>
+
+
+
+    <string name="formatStrStr">%s %s</string>
+</resources>

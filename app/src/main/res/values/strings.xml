@@ -1,23 +1,62 @@
 <resources>
-    <string name="app_name">TicTac</string>
+    <string name="app_name">TicTacToe</string>
     <string name="btnStart">Start</string>
     <string name="about">About</string>
-    <string name="statistic">Statistic</string>
+    <string name="statistic">Statistics</string>
     <string name="settings">Settings</string>
     <string name="btnExit">Exit</string>
 
-    <string name="firstMove">First player\'s move</string>
-    <string name="secondMove">Second player\'s move</string>
-    <string name="botMove">Android\'s move</string>
+    <string name="playerMove">Player moves</string>
+    <string name="firstMove">First player moves</string>
+    <string name="secondMove">Second player moves</string>
+    <string name="botMove">Android moves</string>
     <string name="moves"> moves</string>
 
+    <string name="congratPlayer">Player win this round!</string>
     <string name="congratFirst">First player won this round!</string>
     <string name="congratSecond">Second player won this round!</string>
     <string name="congratBot">Android won this round, but not a war! Don\'t give up!</string>
     <string name="nooneWon">We have a tie!</string>
 
-    <string name="volume">Volume</string>
+
+    <string name="offlineStats">Offline statistics</string>
+    <string name="botsStats">Bots statistics</string>
+    <string name="otherStats">Other statistics</string>
+    <string name="firstPlayerVictories">First player got victories:</string>
+    <string name="secondPlayerVictories">Second player got victories:</string>
+    <string name="easyEliminated">Easy bots eliminated:</string>
+    <string name="mediumEliminated">Medium bots eliminated:</string>
+    <string name="hardEliminated">Hard bots eliminated:</string>
+    <string name="tieCount">Tie count:</string>
+    <string name="botGames">Games with bot:</string>
+
+    <string name="volume">Music</string>
     <string name="sound">Sound</string>
+    <string name="nickName">Nickname</string>
     <string name="uWon">You won!</string>
     <string name="uLost">You lost</string>
+    <string name="remember">Remember me</string>
+    <string name="buffer">Buffer</string>
+
+    <string name="bot">Bot</string>
+    <string name="offline">Offline</string>
+    <string name="online">Online</string>
+
+    <string name="size3">3x3</string>
+    <string name="size5">5x5</string>
+    <string name="size7">7x7</string>
+
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+
+    <string name="description">We appreciate that you have downloaded this game. I hope you like it, and will like our company on the Play Market store. All icons from flaticon.com, sounds from freesound.org</string>
+    <string name="press">Press one more time to exit</string>
+
+
+    <string name="noInet">No internet connection!</string>
+
+
+
+    <string name="formatStrStr">%s %s</string>
 </resources>
